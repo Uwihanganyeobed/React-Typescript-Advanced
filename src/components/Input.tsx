@@ -9,7 +9,6 @@ export const Input = forwardRef<
 >(({ className, ...rest }, ref) => {
   return (
     <input
-    
       {...rest}
       ref={ref}
       className={cn(
